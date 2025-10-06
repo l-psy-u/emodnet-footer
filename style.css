@@ -15,6 +15,7 @@ display:flex;
 justify-content: center;
 }
 .frist-child{
+    background-color: blueviolet;
     width: 900px;
     display: flex;
     flex-direction: column;
@@ -28,7 +29,25 @@ justify-content: center;
     flex-grow: 1;
 }
 .second-child-fat{
+    background-color: green;
+    flex-grow: 3;
+    display: flex;
+}
+.second-child-short{
     flex-grow: 3;
     display: flex;
 }
 
+.social{
+    display: flex;
+    flex-grow: 3;
+    flex: 100px;
+    gap: 30px 30px;
+}
+
+.second-child-fat-g1-soggetto2{
+    display:flex ;
+    margin-top: 30px;
+    /* il margin top serve per dare un po' di spazio */
+
+}
