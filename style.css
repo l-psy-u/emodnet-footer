@@ -16,6 +16,8 @@ justify-content: center;
 }
 .frist-child{
     background-color: blueviolet;
+    height: 800px;
+
     width: 900px;
     display: flex;
     flex-direction: column;
@@ -28,19 +30,20 @@ justify-content: center;
 .second-child{
     flex-grow: 1;
 }
+    /* flex gro serve per dividere in segmenti */
 .second-child-fat{
     background-color: green;
-    flex-grow: 3;
+    flex-grow: 2;
     display: flex;
 }
 .second-child-short{
-    flex-grow: 3;
+    flex-grow: 1;
     display: flex;
 }
 
 .social{
     display: flex;
-    flex-grow: 3;
+    flex-grow: 1;
     flex: 100px;
     gap: 30px 30px;
 }
@@ -50,4 +53,25 @@ justify-content: center;
     margin-top: 30px;
     /* il margin top serve per dare un po' di spazio */
 
+}
+.grow-1{
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+}
+.color-white{
+    color: white;
+    /* per camviare i likn riga in basso  */
+    text-decoration : none;
+}
+.gap-16{
+    row-gap: 16px;
+    flex-basis: 0;
+}
+
+.margin-0{
+    margin: 0px;
+}
+.color-white:hover{
+    text-decoration: underline;
 }
